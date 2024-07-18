@@ -1,0 +1,36 @@
+.saved-video-item-bg-container{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    /* border: solid green; */
+}
+.saved-video-item-thumbnail-container{
+    width: 40%;
+    /* border:  solid red; */
+}
+.saved-video-item-thumbnail{
+    width: 100%;
+}
+.saved-video-item-channel-details-container{
+    margin-top: -8px;
+    width: 60%;
+    /* border: solid blue; */
+}
+.saved-video-views-distance-container{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.saved-video-title{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.saved-video-name{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.saved-video-distance{
+    display: flex;
+}

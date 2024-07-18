@@ -1,0 +1,11 @@
+.savedVideos-main-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+.no-saved-videos-img{
+    width: 60%;
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+}

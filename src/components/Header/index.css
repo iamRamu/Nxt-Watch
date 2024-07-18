@@ -1,0 +1,119 @@
+.header-bg-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 95%;
+    /* border: solid red; */
+    font-family: Roboto;
+}
+.header-nxt-watch-logo-container{
+    text-align: left;
+    width: 10%;
+}
+.header-nxt-watch-logo{
+    width: 100%;
+}
+.profile-logo{
+    width: 18%;
+}
+.half-moon-icon{
+    font-size: 25px;
+    cursor: pointer;
+}
+.light-icon{
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.header-nxt-watch-light-mode-profie-logout-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 13%;
+    /* border: solid red; */
+    height: 100%;
+}
+
+.logout-button{
+    background-color: transparent;
+    border: solid  #3b82f6;
+    font-weight: bold;
+    color:  #3b82f6;
+    padding: 3px;
+    width: 80px;
+}
+.logout-button:focus{
+    outline: none;
+}
+
+.button-dark-mode-style{
+    border: solid #ffffff;
+    color: #ffffff;
+}
+.button-dark-mode-style:focus{
+    outline: none;
+}
+
+@media (max-width : 500px) {
+    .header-nxt-watch-logo-container{
+        width: 20%;
+    }
+    .header-bg-container{
+        height: 6vh;
+    }
+    .header-nxt-watch-light-mode-profie-logout-container{
+        width: 35%;
+    }
+    .half-moon-icon{
+        font-size: 18px;
+    }
+    .light-icon{
+        font-size: 20px;
+    }
+    .logout-button{
+        width: 50px;
+        font-size: 10px;
+    }
+    .button-dark-mode-style{
+        width: 50px;
+        font-size: 10px;
+    }
+}
+@media (min-width:400px) and (max-width:600px) {
+    .header-nxt-watch-light-mode-profie-logout-container{
+        width: 30%;
+    }
+}
+@media (min-width:600px) and (max-width:800px) {
+    .header-nxt-watch-light-mode-profie-logout-container{
+        width: 26%;
+    }
+}
+@media (min-width:800px) and (max-width:900px) {
+    .header-nxt-watch-light-mode-profie-logout-container{
+        width: 20%;
+    }
+}
+@media (min-width:900px) and (max-width:1500px) {
+    .header-nxt-watch-light-mode-profie-logout-container{
+        width: 18%;
+    }
+    .half-moon-icon{
+        font-size: 30px;
+    }
+    .light-icon{
+        font-size: 35px;
+    }
+    .profile-logo{
+        width: 16%;
+    }
+    .logout-button{
+        padding: 8px;
+        width: 90px;
+    }
+    .button-dark-mode-style{
+        padding: 8px;
+        width: 90px;
+    }
+}
